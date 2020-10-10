@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My Resume</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<style>
+			.grid-container{
+				display:inline-grid;
+				grid-template-columns:auto auto;
+				grid-gap: 10px 55px ;
+				background-color: #bdbdbd;
+				
+				margin-left:500px;
+				margin-right: 400px;
+				
+			}
+		
+			.item1 {
+				grid-row-start: 1;
+				grid-row-end: 3;
+			
+			
+			}
+			
+			.item4 {
+				grid-column:1/3;
+				text-align: center;
+				margin-top: 2px;
+			}
+			
+			.item2 {
+				margin-bottom:auto;
+			}
+			.item2 h1 {
+				padding-left:3px;
+				
+			}	
+			.grid-container > div {
+				  background-color: rgba(230,243,247, 0.8);
+				  padding: 20px 10px;
+				  padding-top: 0px;
+				
+			}
+			
+			
+			.unordered{
+				padding: 0px 20px;
+			}	
+			
+			h2{
+				color:black;
+				font-style:italic;
+				text-shadow: 2px 2px 5px gray;
+				padding: 0px 10px;
+				
+				
+			}
+			
+			h1{
+				color:black;
+				font-style:italic;
+				text-shadow: 2px 2px 5px gray;
+				padding: 0px 10px;
+				
+				
+			}
+			
+			.name {
+			padding: 2px 10px;
+			font-size: 1.5em;
+			}
+			
+			.socialicon-hover-opacity:hover{opacity:0.55}
+			
+			.socialicon-hover-opacity-off:hover{opacity:1}
+		
+			
+			.orderedlist {
+				color: white;
+				text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+				font-size:1.2em;
+			
+			}
+			
+			.image {
+			padding: 0px 20px;
+			
+			}
+			
+			.date{
+				color:#0fa5c9;
+				
+				padding: 5px;
+				border:3px solid #73AD21;
+				margin-left: 50px;
+				
+				
+			}
+			
+			.jobs{
+				color:#131313;
+				font-size:1.4em;
+				padding-left: 20px;
+			}
+			
+			.text {
+				color:black;
+				
+			}
+			
+			.w3{
+			  position: absolute;
+			  right: 0px;
+			  top: 0px;
+			  z-index: -1;
+			}
+		
+		</style>
+	</head>
+	<body style="background-color:#bdbdbd;">
+		
+		<div class="grid-container">
+				<div class="item1">
+					<img src="noragami-house.png" width="300" height= "250" alt="Avatar">
+					<p class="name">Name: George Ath.</p>
+					<h2>General Info</h2>
+					<ul >
+						<li class="unordered"><font color="#0fa5c9"><u>Electric & Computer Engineer</u></font></li>
+						<li class="unordered"><font color="#0fa5c9"><u>Location: Volos,Gr</u></font></li>
+						<li class="unordered"><font color="#0fa5c9"><u>E-mail: mail@mail.com</u></font></li>
+						<li class="unordered"><font color="#0fa5c9"><u>Tel.:666666666</u></font></li>
+					</ul>
+					
+					<h2>Skills</h2>
+					<ol >
+						<li class="orderedlist">
+							<dl>
+								<dt>Programmer</dt>
+								<dd>- Java</dd>
+								<dd>- C</dt>
+								<dd>- C++</dd>
+								<dd>- C#</dd>
+								<dd>- Html</dd>
+							</dl>
+						</li>
+						<li class="orderedlist">
+							<dl>
+								<dt> Artist</dt>
+								<dd>- Pixel Art</dd>
+								<dd>- 2D/3D Modeler</dd>
+								<dd>- 2D/3D Animator</dd>
+							</dl>	
+						</li>
+						<li class="orderedlist">Blender<img class="image" src="blenderIcon.jfif"  width="20" height= "20"> </li>
+						<li class="orderedlist">Unity<img class="image" src="unityIcon.jfif"  width="20" height= "20"></li>
+						<li class="orderedlist">
+							<dl>
+								<dt>Statistics Analyzer</dt>
+								<dd>- R</dd>
+								<dd>- Spss</dd>
+								<dd>- SAS</dd>
+								<dd>- Excel</dd>
+							</dl>
+						</li>
+						
+						
+					</ol>
+					
+					<h2>Languages</h2>
+					<ul >
+						<li>English </li>
+						<li>Greek </li>
+						<li>German </li>
+						<li>Japanese (a little) </li>
+					</ul>
+					
+					
+				</div>
+				<div class="item2">
+					<h1>Working Experience</h1>
+					<p class="date">October 2017-Current</p>
+					<p class="jobs"><strong>Graphics Designer/Animator</strong></p>
+					<p class="text"><strong>Modeling from scratch 2d or 3d objects (low or high detail),apply bones for 
+						moving the different parts of the object and saving the movements as animations.Acustomed to java's
+						gui interface too to create graphics with code.</strong>
+					</p>
+					<p class="date">March 2018-Current</p>
+					<p class="jobs"><strong>Game Designer/Developer</strong></p>
+					<p class="text"><strong>Making games with other people's or my own prefabs that i export from other 3d 
+						programs and import into unity so that they can be used in the game engine and within the game along
+						with all the other assets created like system UIs. </strong>
+					</p>
+				</div>
+				<div class="item3">
+					<h1>Education</h1>
+					
+					<p class="jobs"><strong>Unity.com</strong></p>
+					<p class="date">2018-Current</p>
+					<p class="text"><strong>Game Designing and developing Tutorials and help through forum.</strong></p>
+					
+					<p class="jobs"><strong>University of Thessaly,Volos</strong></p>
+					<p class="date">201X-Current</p>
+					<p class="text"><strong>Master Degree Imminent</strong></p>
+					
+					<p class="jobs"><strong>Toutube.com</strong></p>
+					<p class="date">2014-Current</p>
+					<p class="text"><strong>Anything you need to know with just one search !</strong></p>
+				</div>
+				<div class="item4">
+					<p class="text"><u>Find me on social media.</u></p>
+					
+					<i class="fa fa-facebook-official socialicon-hover-opacity"></i>
+					<i class="fa fa-linkedin socialicon-hover-opacity"></i>
+					<i class="fa fa-youtube socialicon-hover-opacity"></i>
+					
+					
+				</div>
+				
+		
+			<img class="w3" src="w3certified_logo.png" width="160" height= "100">
+
+		</div>
+	</body>	
+</html>
